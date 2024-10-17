@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Футбольна команда</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+<header>
+    <h1>Футбольна команда Manchester City</h1>
+</header>
+
+<script src="script.js"></script>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="#players-list">Список гравців</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <h2>Логотип клубу</h2>
+    <img src="mancity.png" alt="Логотип команди" class="team-logo" height="170px" width="20px">
+
+    <h2>Історія клубу</h2>
+<div class="history">
+    <p><a href="https://www.mancity.com/" target="_blank">"Манчестер Сіті"</a> став правонаступником клубу <em>"Вест Гортон Сент Маркс"</em>, який був заснований ще в 1880 році. Через сім років команда переїхала на "Гайд Роуд" і отримала назву <em>"Ардвік" АФК</em>.</p>
+    
+    <p>К Футбольній Лізі клуб приєднався у 1892 році, а через фінансові проблеми у сезоні 1893/94 <em>"Ардвік"</em> був реформований у <a href="https://www.mancity.com/" target="_blank">"Манчестер Сіті"</a>.</p>
+</div>
+
+
+<h2>Турнірна таблиця</h2>
+<table class="tournament-table">
+    <tr>
+        <th>Місце</th>
+        <th>Команда</th>
+        <th>Очки</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>
+            <img src="liverpool.png" alt="Ліверпуль" class="team-logo-small">
+            Ліверпуль
+        </td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>
+            <img src="mancity.png" alt="Манчестер Сіті" class="team-logo-small">
+            Манчестер Сіті
+        </td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>
+            <img src="arsenal.png" alt="Арсенал" class="team-logo-small">
+            Арсенал
+        </td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>
+            <img src="chelsea.png" alt="Челсі" class="team-logo-small">
+            Челсі
+        </td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>
+            <img src="astonvilla.png" alt="Астон Віла" class="team-logo-small">
+            Астон Віла
+        </td>
+        <td>12</td>
+    </tr>
+</table>
+
+<div class="players-list">
+    <h2>Гравці основного складу Манчестер Сіті (2024-2025)</h2>
+    <ul>
+        <li class="player" id="players-list">
+            <img src="ederson.jpg" alt="Едерсон" class="player-photo">
+            <div class="player-info">
+                <a href="https://www.mancity.com/players/ederson" class="player-name">Едерсон Мораес</a>
+                <p>Позиція: Воротар</p>
+                <p>Вік: 31</p>
+                <p>Країна: <img src="brazil.png" alt="Бразилія" class="country-flag"></p>
+            </div>
+        </li>
+        <li class="player">
+            <img src="natan.jpg" alt="Натан Акк" class="player-photo">
+            <div class="player-info">
+                <a href="https://www.mancity.com/players/nathan-ake" class="player-name">Натан Аке</a>
+                <p>Позиція: Захисник</p>
+                <p>Вік: 29</p>
+                <p>Країна: <img src="netherlands.png" alt="Нідерланди" class="country-flag"></p>
+            </div>
+        </li>
+        <li class="player">
+            <img src="dias.jpg" alt="Діас" class="player-photo">
+            <div class="player-info">
+                <a href="https://www.mancity.com/players/ruben-dias" class="player-name">Рубен Диас</a>
+                <p>Позиція: Захисник</p>
+                <p>Вік: 26</p>
+                <p>Країна: <img src="portugal.png" alt="Португалія" class="country-flag"></p>
+            </div>
+        </li>
+        <li class="player">
+            <img src="kevin.jpg" alt="Кевін Де Брюйне" class="player-photo">
+            <div class="player-info">
+                <a href="https://www.mancity.com/players/kevin-de-bruyne" class="player-name">Кевін Де Брюйне</a>
+                <p>Позиція: Півзахисник</p>
+                <p>Вік: 33</p>
+                <p>Країна: <img src="belgium.png" alt="Бельгія" class="country-flag"></p>
+            </div>
+        </li>
+        <li class="player">
+            <img src="haaland.jpg" alt="Ерлінг Холанд" class="player-photo">
+            <div class="player-info">
+                <a href="https://www.mancity.com/players/erling-haaland" class="player-name">Ерлінг Холанд</a>
+                <p>Позиція: Нападник</p>
+                <p>Вік: 24</p>
+                <p>Країна: <img src="norway.png" alt="Норвегія" class="country-flag"></p>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="more-info">
+    <a href="https://www.mancity.com/players/mens" class="more-info-button">⋮</a>
+</div>
+
+    <div class="audio-video">
+        <h2>Відео про клуб Манчестер Сіті</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ga4S_ot97cI?si=BHGl_z-MLvKVO8s8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<a href="index.html" style="float: right;">-----</a>
+</body>
+</html>
